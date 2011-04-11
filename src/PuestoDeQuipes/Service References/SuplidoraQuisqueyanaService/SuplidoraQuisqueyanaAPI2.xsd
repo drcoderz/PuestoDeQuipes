@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SuplidoraQuisqueyanaService.DataContracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SuplidoraQuisqueyanaService.DataContracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Orden">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CantidadOrdenada" type="xs:int" />
+      <xs:element minOccurs="0" name="FechaDeOrden" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="NombreDeArticulo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NombreDeCuenta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroDeCuenta" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Orden" nillable="true" type="tns:Orden" />
+  <xs:complexType name="Factura">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CantidadProveida" type="xs:int" />
+      <xs:element minOccurs="0" name="DetallesDeOrden" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroDeFactura" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrdenOriginal" nillable="true" type="tns:Orden" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Factura" nillable="true" type="tns:Factura" />
+</xs:schema>

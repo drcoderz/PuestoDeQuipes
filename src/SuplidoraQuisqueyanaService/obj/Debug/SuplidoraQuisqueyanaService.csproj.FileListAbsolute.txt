@@ -1,0 +1,15 @@
+C:\Users\Roman\Documents\CodeJam\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roman\Documents\CodeJam\PuestoDeQuipes\SuplidoraQuisqueyanaService\bin\SuplidoraQuisqueyanaService.dll
+C:\Users\Roman\Documents\CodeJam\PuestoDeQuipes\SuplidoraQuisqueyanaService\bin\SuplidoraQuisqueyanaService.pdb
+C:\Users\Roman\Documents\CodeJam\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\SuplidoraQuisqueyanaService.dll
+C:\Users\Roman\Documents\CodeJam\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\SuplidoraQuisqueyanaService.pdb
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PuestoDeQuipes\SuplidoraQuisqueyanaService\bin\SuplidoraQuisqueyanaService.dll
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PuestoDeQuipes\SuplidoraQuisqueyanaService\bin\SuplidoraQuisqueyanaService.pdb
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\SuplidoraQuisqueyanaService.dll
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\SuplidoraQuisqueyanaService.pdb
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\SuplidoraQuisqueyanaService\bin\SuplidoraQuisqueyanaService.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\SuplidoraQuisqueyanaService\bin\SuplidoraQuisqueyanaService.pdb
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\SuplidoraQuisqueyanaService.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\SuplidoraQuisqueyanaService\obj\Debug\SuplidoraQuisqueyanaService.pdb

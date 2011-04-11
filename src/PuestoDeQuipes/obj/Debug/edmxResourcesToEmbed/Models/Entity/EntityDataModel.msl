@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityDataModelStoreContainer" CdmEntityContainer="EntityDataModelContainer">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Cliente)">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ordenes">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Orden)">
+        <MappingFragment StoreEntitySet="Ordenes">
+          <ScalarProperty Name="OrdenId" ColumnName="OrdenId" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Ordenado" ColumnName="Ordenado" />
+          <ScalarProperty Name="ClienteClienteId" ColumnName="ClienteClienteId" />
+          <ScalarProperty Name="ProductoProductoId" ColumnName="ProductoProductoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Producto)">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Visible" ColumnName="Visible" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Especiales">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Especial)">
+        <MappingFragment StoreEntitySet="Especiales">
+          <ScalarProperty Name="EspecialId" ColumnName="EspecialId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaTermino" ColumnName="FechaTermino" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="ProductoProductoId" ColumnName="ProductoProductoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ingredientes">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Ingrediente)">
+        <MappingFragment StoreEntitySet="Ingredientes">
+          <ScalarProperty Name="IngredienteId" ColumnName="IngredienteId" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ProductoProductoId" ColumnName="ProductoProductoId" />
+          <ScalarProperty Name="InventarioInventarioId" ColumnName="InventarioInventarioId" />
+          <ScalarProperty Name="UnidadUnidadId" ColumnName="UnidadUnidadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventarios">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Inventario)">
+        <MappingFragment StoreEntitySet="Inventarios">
+          <ScalarProperty Name="InventarioId" ColumnName="InventarioId" />
+          <ScalarProperty Name="CantidadTotal" ColumnName="CantidadTotal" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="UnidadUnidadId" ColumnName="UnidadUnidadId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unidades">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Unidad)">
+        <MappingFragment StoreEntitySet="Unidades">
+          <ScalarProperty Name="UnidadId" ColumnName="UnidadId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Configuraciones">
+      <EntityTypeMapping TypeName="IsTypeOf(EntityDataModel.Configuracion)">
+        <MappingFragment StoreEntitySet="Configuraciones">
+          <ScalarProperty Name="ConfiguracionId" ColumnName="ConfiguracionId" />
+          <ScalarProperty Name="Config1" ColumnName="Config1" />
+          <ScalarProperty Name="Config2" ColumnName="Config2" />
+          <ScalarProperty Name="Config3" ColumnName="Config3" />
+          <ScalarProperty Name="Config4" ColumnName="Config4" />
+          <ScalarProperty Name="Config5" ColumnName="Config5" />
+          <ScalarProperty Name="Config6" ColumnName="Config6" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

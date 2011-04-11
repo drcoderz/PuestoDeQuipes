@@ -1,0 +1,52 @@
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PDQProject\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.dll
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PDQProject\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.pdb
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PDQProject\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PDQProject\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.dll
+C:\Users\Roman\Documents\WebDev\CodeJamProject\PDQProject\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.pdb
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\WIP\PDQProject\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\WIP\PDQProject\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.pdb
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\WIP\PDQProject\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\WIP\PDQProject\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\WIP\PDQProject\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.pdb
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.pdb
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.Mvc.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.xml
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.xml
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.Mvc.xml
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.pdb
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.xml
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.dll
+C:\Users\Vladimir Heredia\Documents\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.pdb
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.pdb
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.Mvc.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.xml
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.xml
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.Mvc.xml
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.pdb
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.xml
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.dll
+C:\Users\jliranz\Documents\Visual Studio 2010\Projects\Final\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.pdb
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.dll
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\PuestoDeQuipes.pdb
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.dll
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.dll
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.Mvc.dll
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.dll
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.xml
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.xml
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Facebook.Web.Mvc.xml
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.pdb
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\bin\Newtonsoft.Json.xml
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.dll
+C:\Users\Vladimir Heredia\Desktop\PuestoDeQuipes\PuestoDeQuipes\PuestoDeQuipes\obj\Debug\PuestoDeQuipes.pdb

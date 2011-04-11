@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92298DC7-554F-4C90-A9ED-77CA3DCF90D0}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PuestoDeQuipes</RootNamespace>
+    <AssemblyName>PuestoDeQuipes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>..\packages\Facebook.5.0.9.0\lib\net40-client\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Web">
+      <HintPath>..\packages\FacebookWeb.5.0.9.0\lib\net40\Facebook.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Web.Mvc">
+      <HintPath>..\packages\FacebookWebMvc.5.0.9.0\lib\net40\Facebook.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.0.1\lib\40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\EspecialesController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IngredientesController.cs" />
+    <Compile Include="Controllers\InventarioController.cs" />
+    <Compile Include="Controllers\OrdenesController.cs" />
+    <Compile Include="Controllers\ProductosController.cs" />
+    <Compile Include="Models\Abstract\IDBRepository.cs" />
+    <Compile Include="Models\Concrete\DBRepository.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Entity\EntityDataModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EntityDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FacebookUser.cs" />
+    <Compile Include="Models\InMemoryUserStore.cs" />
+    <Compile Include="Models\ProcesoDeOrden\OrdenProcesadaEventArgs.cs" />
+    <Compile Include="Models\ProcesoDeOrden\SimuladorProcesoDeOrden.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\SuplidoraQuisqueyanaService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ASPNETDB.MDF" />
+    <Content Include="App_Data\aspnetdb_log.ldf">
+      <DependentUpon>ASPNETDB.MDF</DependentUpon>
+    </Content>
+    <Content Include="Content\images\adminFooter\footerlogo.png" />
+    <Content Include="Content\images\adminFooter\left.png" />
+    <Content Include="Content\images\adminFooter\repeat.png" />
+    <Content Include="Content\images\adminFooter\right.png" />
+    <Content Include="Content\images\adminNav\inventario.png" />
+    <Content Include="Content\images\adminNav\left.png" />
+    <Content Include="Content\images\adminNav\oferta.png" />
+    <Content Include="Content\images\adminNav\ordenes.png" />
+    <Content Include="Content\images\adminNav\repeat.png" />
+    <Content Include="Content\images\adminNav\right.png" />
+    <Content Include="Content\adminStyle.css" />
+    <Content Include="Content\images\alert.png" />
+    <Content Include="Content\images\churros.png" />
+    <Content Include="Content\images\Crear.png" />
+    <Content Include="Content\images\admin_logo.png" />
+    <Content Include="Content\images\app_48.png" />
+    <Content Include="Content\images\Borrar.png" />
+    <Content Include="Content\images\croquetas.png" />
+    <Content Include="Content\images\Delete.png" />
+    <Content Include="Content\images\Detalle.png" />
+    <Content Include="Content\images\Edit.png" />
+    <Content Include="Content\images\empanadas.png" />
+    <Content Include="Content\images\enviar.png" />
+    <Content Include="Content\images\facebook_32.png" />
+    <Content Include="Content\images\Floppy.png" />
+    <Content Include="Content\images\home_img.png" />
+    <Content Include="Content\images\logo.PNG" />
+    <Content Include="Content\images\mail_reply_48.png" />
+    <Content Include="Content\images\OfertaDisabled.png" />
+    <Content Include="Content\images\oferta_bg.jpg" />
+    <Content Include="Content\images\oferta_bg2.jpg" />
+    <Content Include="Content\images\ordenar.png" />
+    <Content Include="Content\images\printer_48.png" />
+    <Content Include="Content\images\Oferta.png" />
+    <Content Include="Content\images\quipes.png" />
+    <Content Include="Content\images\twitter_32.png" />
+    <Content Include="Content\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <Content Include="Content\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="Content\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\images\User.png" />
+    <Content Include="Content\images\Editar.png" />
+    <Content Include="Content\images\mainFooter\footerLogo.png" />
+    <Content Include="Content\images\mainFooter\left.png" />
+    <Content Include="Content\images\mainFooter\repeat.png" />
+    <Content Include="Content\images\mainFooter\right.png" />
+    <Content Include="Content\images\mainNav\inicio.png" />
+    <Content Include="Content\images\mainNav\left.png" />
+    <Content Include="Content\images\mainNav\ordenar.png" />
+    <Content Include="Content\images\mainNav\productos.png" />
+    <Content Include="Content\images\mainNav\repeat.png" />
+    <Content Include="Content\images\mainNav\right.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Models\Entity\EntityDataModel.edmx.sql" />
+    <Content Include="Scripts\jquery-core-ui.js" />
+    <Content Include="Scripts\jquery-datepicker.js" />
+    <Content Include="Scripts\jquery-1.5.1.min.js" />
+    <Content Include="Content\jquery-ui-1.8.11.custom.css" />
+    <Content Include="Scripts\jquery-ui-1.8.11.custom.min.js" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\PuestoDeQuipes.SuplidoraQuisqueyanaService.Factura.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SuplidoraQuisqueyanaService\SuplidoraQuisqueyanaAPI.disco" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\configuration91.svcinfo" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\configuration.svcinfo" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Views\Clientes\Detalles.aspx" />
+    <Content Include="Views\Clientes\Editar.aspx" />
+    <Content Include="Views\Clientes\Index.aspx" />
+    <Content Include="Views\Especiales\Crear.aspx" />
+    <Content Include="Views\Especiales\CrearLista.aspx" />
+    <Content Include="Views\Especiales\Detalles.aspx" />
+    <Content Include="Views\Especiales\DetallesLista.aspx" />
+    <Content Include="Views\Especiales\Editar.aspx" />
+    <Content Include="Views\Especiales\EditarLista.aspx" />
+    <Content Include="Views\Especiales\Imprimir.aspx" />
+    <Content Include="Views\Especiales\Index.aspx" />
+    <Content Include="Views\Especiales\Lista.aspx" />
+    <Content Include="Views\Ingredientes\Editar.aspx" />
+    <Content Include="Views\Ingredientes\Lista.aspx" />
+    <Content Include="Views\Ingredientes\Crear.aspx" />
+    <Content Include="Views\Inventario\Crear.aspx" />
+    <Content Include="Views\Inventario\Editar.aspx" />
+    <Content Include="Views\Inventario\Index.aspx" />
+    <Content Include="Views\Inventario\ProcesoDeOrden.aspx" />
+    <Content Include="Views\Ordenes\Editar.aspx" />
+    <Content Include="Views\Ordenes\Index.aspx" />
+    <Content Include="Views\Ordenes\OrdenarEnLinea.aspx" />
+    <Content Include="Views\Ordenes\OrdenFinalizada.aspx" />
+    <Content Include="Views\Productos\Crear.aspx" />
+    <Content Include="Views\Productos\Detalles.aspx" />
+    <Content Include="Views\Productos\Editar.aspx" />
+    <Content Include="Views\Productos\Index.aspx" />
+    <Content Include="Views\Productos\VerProductos.aspx" />
+    <Content Include="Views\Shared\Controls\AdminHeaderControl.ascx" />
+    <Content Include="Views\Shared\Controls\InventarioAlert.ascx" />
+    <Content Include="Views\Shared\Controls\jDatepicker.ascx" />
+    <Content Include="Views\Shared\Controls\MainHeaderControl.ascx" />
+    <Content Include="Views\Shared\Controls\ShowHideScript.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\SuplidoraQuisqueyanaAPI2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Admin.Master" />
+    <Content Include="Views\Shared\MainPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Print.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Models\Entity\EntityDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>EntityDataModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\images\adminFooter\Thumbs.db" />
+    <None Include="Content\images\adminNav\Thumbs.db" />
+    <None Include="Content\images\mainFooter\Thumbs.db" />
+    <None Include="Content\images\mainNav\Thumbs.db" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\SuplidoraQuisqueyanaAPI.wsdl" />
+    <None Include="Service References\SuplidoraQuisqueyanaService\SuplidoraQuisqueyanaAPI.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SuplidoraQuisqueyanaService\SuplidoraQuisqueyanaAPI1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SuplidoraQuisqueyanaService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>3434</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

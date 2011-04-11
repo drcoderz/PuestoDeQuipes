@@ -1,0 +1,143 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/f:FacebookUser.cs" caret="44" fromTop="1" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/f:InMemoryUserStore.cs" caret="943" fromTop="29" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/f:Web.config" caret="5873" fromTop="24" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Productos/f:Editar.aspx" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Productos/f:Detalles.aspx" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/f:Print.Master" caret="550" fromTop="7" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Imprimir.aspx" caret="1561" fromTop="16" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Productos/f:Index.aspx" caret="2880" fromTop="15" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Content/f:adminStyle.css" caret="4822" fromTop="20" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/f:LogOnUserControl.ascx" caret="116" fromTop="3" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Detalles.aspx" caret="1775" fromTop="27" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/d:Controls/f:MainHeaderControl.ascx" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/d:Controls/f:AdminHeaderControl.ascx" caret="961" fromTop="18" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/f:MainPage.Master" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/f:Admin.Master" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/f:Site.Master" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/d:Concrete/f:DBRepository.cs" caret="5643" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:AccountController.cs" caret="5838" fromTop="11" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:ClientesController.cs" caret="506" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:HomeController.cs" caret="321" fromTop="15" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:EspecialesController.cs" caret="6707" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:InventarioController.cs" caret="3176" fromTop="18" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:IngredientesController.cs" caret="0" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:OrdenesController.cs" caret="6124" fromTop="80" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:ProductosController.cs" caret="3959" fromTop="14" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Inventario/f:Index.aspx" caret="1948" fromTop="29" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:EspecialesController.cs" caret="7807" fromTop="17" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Imprimir.aspx" caret="686" fromTop="9" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/f:Print.Master" caret="448" fromTop="7" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Imprimir.aspx" caret="155" fromTop="0" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Imprimir.aspx" caret="514" fromTop="10" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Imprimir.aspx" caret="450" fromTop="7" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Content/f:adminStyle.css" caret="4822" fromTop="20" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Imprimir.aspx" caret="1561" fromTop="18" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Detalles.aspx" caret="1245" fromTop="13" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Detalles.aspx" caret="1390" fromTop="17" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Detalles.aspx" caret="1254" fromTop="14" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Especiales/f:Detalles.aspx" caret="1680" fromTop="18" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:AccountController.cs" caret="7300" fromTop="20" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/d:Controls/f:AdminHeaderControl.ascx" caret="1042" fromTop="1" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Shared/d:Controls/f:AdminHeaderControl.ascx" caret="961" fromTop="18" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/d:Concrete/f:DBRepository.cs" caret="7811" fromTop="31" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/d:Concrete/f:DBRepository.cs" caret="553" fromTop="17" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/d:Concrete/f:DBRepository.cs" caret="913" fromTop="25" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Models/d:Concrete/f:DBRepository.cs" caret="5643" fromTop="17" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:InventarioController.cs" caret="3180" fromTop="23" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:InventarioController.cs" caret="3539" fromTop="31" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:HomeController.cs" caret="321" fromTop="15" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:OrdenesController.cs" caret="2582" fromTop="15" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:OrdenesController.cs" caret="6124" fromTop="80" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:ProductosController.cs" caret="3793" fromTop="10" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Controllers/f:ProductosController.cs" caret="3959" fromTop="14" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Inventario/f:Index.aspx" caret="780" fromTop="26" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Inventario/f:Index.aspx" caret="1631" fromTop="31" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Inventario/f:Index.aspx" caret="1948" fromTop="35" />
+      <File id="92298DC7-554F-4C90-A9ED-77CA3DCF90D0/d:Views/d:Inventario/f:Index.aspx" caret="5873" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Authorize" priority="12" />
+      <Item value="Html" priority="1" />
+      <Item value="object" priority="3" />
+      <Item value="Model" priority="2" />
+      <Item value="new" priority="1" />
+      <Item value="RedirectToAction`0" priority="1" />
+      <Item value="PuestoDeQuipes" priority="1" />
+      <Item value="Models" priority="1" />
+      <Item value="Abstract" priority="0" />
+      <Item value="Controllers" priority="1" />
+      <Item value="PuestoDeQuipe" priority="0" />
+      <Item value="MvcApplication`0" priority="0" />
+      <Item value="Concrete" priority="0" />
+      <Item value="InMemoryUserStore`0" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="repository" priority="0" />
+      <Item value="Editar`0" priority="1" />
+      <Item value="e" priority="0" />
+      <Item value="model" priority="4" />
+      <Item value="try" priority="0" />
+      <Item value="RedirectResult`0" priority="0" />
+      <Item value="ex" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="ActionLink`0" priority="0" />
+      <Item value="RenderPartial`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PuestoDeQuipes.Models.Entity.Especial">
+      <Item value="EspecialId" priority="5" />
+      <Item value="Descripcion" priority="1" />
+      <Item value="Nombre" priority="0" />
+      <Item value="Precio" priority="1" />
+      <Item value="Producto" priority="0" />
+      <Item value="FechaInicio" priority="0" />
+      <Item value="FechaTermino" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PuestoDeQuipes.Models.InMemoryUserStore">
+      <Item value="GetUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PuestoDeQuipes.Models.FacebookUser">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PuestoDeQuipes.Models.Concrete.DBRepository">
+      <Item value="Especiales" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PuestoDeQuipes.Models.Entity.Producto">
+      <Item value="Nombre" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityDataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="EntityDataModelStoreContainer">
+    <EntitySet Name="Clientes" EntityType="EntityDataModel.Store.Clientes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ordenes" EntityType="EntityDataModel.Store.Ordenes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Productos" EntityType="EntityDataModel.Store.Productos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Especiales" EntityType="EntityDataModel.Store.Especiales" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ingredientes" EntityType="EntityDataModel.Store.Ingredientes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Inventarios" EntityType="EntityDataModel.Store.Inventarios" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Unidades" EntityType="EntityDataModel.Store.Unidades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Configuraciones" EntityType="EntityDataModel.Store.Configuraciones" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ClienteOrden" Association="EntityDataModel.Store.ClienteOrden">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Orden" EntitySet="Ordenes" />
+    </AssociationSet>
+    <AssociationSet Name="ProductoOrden" Association="EntityDataModel.Store.ProductoOrden">
+      <End Role="Producto" EntitySet="Productos" />
+      <End Role="Orden" EntitySet="Ordenes" />
+    </AssociationSet>
+    <AssociationSet Name="ProductoEspecial" Association="EntityDataModel.Store.ProductoEspecial">
+      <End Role="Producto" EntitySet="Productos" />
+      <End Role="Especial" EntitySet="Especiales" />
+    </AssociationSet>
+    <AssociationSet Name="ProductoIngrediente" Association="EntityDataModel.Store.ProductoIngrediente">
+      <End Role="Producto" EntitySet="Productos" />
+      <End Role="Ingrediente" EntitySet="Ingredientes" />
+    </AssociationSet>
+    <AssociationSet Name="InventarioIngrediente" Association="EntityDataModel.Store.InventarioIngrediente">
+      <End Role="Inventario" EntitySet="Inventarios" />
+      <End Role="Ingrediente" EntitySet="Ingredientes" />
+    </AssociationSet>
+    <AssociationSet Name="UnidadIngrediente" Association="EntityDataModel.Store.UnidadIngrediente">
+      <End Role="Unidad" EntitySet="Unidades" />
+      <End Role="Ingrediente" EntitySet="Ingredientes" />
+    </AssociationSet>
+    <AssociationSet Name="UnidadInventario" Association="EntityDataModel.Store.UnidadInventario">
+      <End Role="Unidad" EntitySet="Unidades" />
+      <End Role="Inventario" EntitySet="Inventarios" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Apellido" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Direccion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Telefono" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ordenes">
+    <Key>
+      <PropertyRef Name="OrdenId" />
+    </Key>
+    <Property Name="OrdenId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Ordenado" Type="datetime" Nullable="false" />
+    <Property Name="ClienteClienteId" Type="int" Nullable="false" />
+    <Property Name="ProductoProductoId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="ProductoId" />
+    </Key>
+    <Property Name="ProductoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Precio" Type="float" Nullable="false" />
+    <Property Name="Visible" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Especiales">
+    <Key>
+      <PropertyRef Name="EspecialId" />
+    </Key>
+    <Property Name="EspecialId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FechaInicio" Type="datetime" Nullable="false" />
+    <Property Name="FechaTermino" Type="datetime" Nullable="false" />
+    <Property Name="Precio" Type="float" Nullable="false" />
+    <Property Name="ProductoProductoId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ingredientes">
+    <Key>
+      <PropertyRef Name="IngredienteId" />
+    </Key>
+    <Property Name="IngredienteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="ProductoProductoId" Type="int" Nullable="false" />
+    <Property Name="InventarioInventarioId" Type="int" Nullable="false" />
+    <Property Name="UnidadUnidadId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Inventarios">
+    <Key>
+      <PropertyRef Name="InventarioId" />
+    </Key>
+    <Property Name="InventarioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CantidadTotal" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="UnidadUnidadId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Unidades">
+    <Key>
+      <PropertyRef Name="UnidadId" />
+    </Key>
+    <Property Name="UnidadId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Configuraciones">
+    <Key>
+      <PropertyRef Name="ConfiguracionId" />
+    </Key>
+    <Property Name="ConfiguracionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Config1" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Config2" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Config3" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Config4" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Config5" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Config6" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="ClienteOrden">
+    <End Role="Cliente" Type="EntityDataModel.Store.Clientes" Multiplicity="1" />
+    <End Role="Orden" Type="EntityDataModel.Store.Ordenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="Orden">
+        <PropertyRef Name="ClienteClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProductoOrden">
+    <End Role="Producto" Type="EntityDataModel.Store.Productos" Multiplicity="1" />
+    <End Role="Orden" Type="EntityDataModel.Store.Ordenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ProductoId" />
+      </Principal>
+      <Dependent Role="Orden">
+        <PropertyRef Name="ProductoProductoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProductoEspecial">
+    <End Role="Producto" Type="EntityDataModel.Store.Productos" Multiplicity="1" />
+    <End Role="Especial" Type="EntityDataModel.Store.Especiales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ProductoId" />
+      </Principal>
+      <Dependent Role="Especial">
+        <PropertyRef Name="ProductoProductoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProductoIngrediente">
+    <End Role="Producto" Type="EntityDataModel.Store.Productos" Multiplicity="1" />
+    <End Role="Ingrediente" Type="EntityDataModel.Store.Ingredientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ProductoId" />
+      </Principal>
+      <Dependent Role="Ingrediente">
+        <PropertyRef Name="ProductoProductoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="InventarioIngrediente">
+    <End Role="Inventario" Type="EntityDataModel.Store.Inventarios" Multiplicity="1" />
+    <End Role="Ingrediente" Type="EntityDataModel.Store.Ingredientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Inventario">
+        <PropertyRef Name="InventarioId" />
+      </Principal>
+      <Dependent Role="Ingrediente">
+        <PropertyRef Name="InventarioInventarioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UnidadIngrediente">
+    <End Role="Unidad" Type="EntityDataModel.Store.Unidades" Multiplicity="1" />
+    <End Role="Ingrediente" Type="EntityDataModel.Store.Ingredientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unidad">
+        <PropertyRef Name="UnidadId" />
+      </Principal>
+      <Dependent Role="Ingrediente">
+        <PropertyRef Name="UnidadUnidadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UnidadInventario">
+    <End Role="Unidad" Type="EntityDataModel.Store.Unidades" Multiplicity="1" />
+    <End Role="Inventario" Type="EntityDataModel.Store.Inventarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unidad">
+        <PropertyRef Name="UnidadId" />
+      </Principal>
+      <Dependent Role="Inventario">
+        <PropertyRef Name="UnidadUnidadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

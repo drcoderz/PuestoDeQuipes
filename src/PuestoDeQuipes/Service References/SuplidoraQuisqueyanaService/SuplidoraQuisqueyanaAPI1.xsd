@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:3487/SuplidoraQuisqueyanaAPI.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SuplidoraQuisqueyanaService.DataContracts" />
+  <xs:element name="EnviarOrden">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SuplidoraQuisqueyanaService.DataContracts" minOccurs="0" name="ordenRecibida" nillable="true" type="q1:Orden" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnviarOrdenResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenCompletada">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrdenCompletadaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/SuplidoraQuisqueyanaService.DataContracts" minOccurs="0" name="OrdenCompletadaResult" nillable="true" type="q2:Factura" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

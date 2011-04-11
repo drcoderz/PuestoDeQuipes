@@ -1,0 +1,299 @@
+﻿body
+{
+    font-family:Arial, Verdana, Segoe UI, Sans-Serif;
+    font-size:12px;
+}
+img
+{
+    border:none;
+}
+#wrapper
+{
+    margin: 0 auto;
+    width:980px;
+}
+p
+{
+    margin:0;
+    padding:0;
+}
+
+a, a:visited, a:hover, a:link
+{
+    text-decoration:none;
+    border:none;
+    color: #000000;
+}
+
+.centerContent
+{
+     margin: 100px auto 0;
+     width: 900px;
+}
+
+h1
+{
+}
+
+h2
+{
+    color:#cf3e0b;
+    font-size: 30px;
+}
+
+#logo
+{
+    background: url(Images/logo.png) no-repeat;
+    width: 423px;
+    height: 74px;
+    margin-bottom: 20px;
+}
+
+#mainHeader
+{
+    margin: 10px;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+    width:980px;
+}
+
+#left
+{
+  background: url(Images/mainNav/left.png) no-repeat;
+  width:20px;
+  height:43px; 
+  float: left;   
+}
+
+#repeat
+{
+    background: url("Images/mainNav/repeat.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 43px;
+    width: 900px;
+}
+
+#right
+{
+    background:url("Images/mainNav/right.png") no-repeat scroll 0 0 transparent;
+    float:left;
+    height:43px;
+    width:22px;
+}
+   
+#navigation
+{
+    display: block;
+    height: 35px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#navigation li
+{
+    display: block;
+    float: left;
+    height: 25px;
+    padding: 10px 20px;
+}
+
+.navRow a
+{
+    font-size:16px;
+    color:#fff;
+}
+
+#homeImg
+{
+    background: url(Images/home_img.png) no-repeat;
+    width: 327px;
+    height: 269px;
+    float: left;
+}
+
+/* product specific code */
+.productBlock
+{
+    height:200px;
+    width:900px;
+}
+
+.productImg
+{
+    float:left;
+    margin-right:20px;
+}
+
+.productTitle
+{
+    color:#CF3E0B;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.productDesc
+{
+   font-size:20px;
+}
+
+.productPrecio
+{
+    color: #ff7f50;
+    font-size: 20px;
+}
+
+.productDescBlock
+{
+    padding-top:10px;
+}
+
+.ordenarBtn
+{
+    margin-top: 10px;
+}
+
+/* Footer Control */
+#fControl
+{
+    float:left;
+    width:900px;
+}
+
+#flogo
+{
+    background: url(Images/mainFooter/footerlogo.png) no-repeat;
+    width: 326px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+#fleft
+{
+  background: url(Images/mainFooter/left.png) no-repeat;
+  width:25px;
+  height:70px; 
+  float: left;   
+}
+
+#frepeat
+{
+    background:url("Images/mainFooter/repeat.png") repeat-x scroll 0 0 transparent;
+    float:left;
+    height:70px;
+    width:830px;
+}
+
+#fright
+{
+    background:url("Images/mainFooter/right.png") no-repeat scroll 0 0 transparent;
+    float:left;
+    height:70px;
+    width:39px;
+}
+
+
+
+
+/*order form*/
+fieldset
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+    overflow: hidden;
+    padding: 10px 15px 30px;
+    position: relative;
+    width: 718px;
+}
+
+label {
+    color: #5D5D5D;
+    display: block;
+    font-family: Helvetica,Arial;
+    font-size: 16px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+p.input_block {
+    float: left;
+    margin: 15px;
+    padding-bottom: 0;
+    width: 209px;
+}
+p.textarea_block
+{
+    padding-left:15px;
+}
+p.textarea_block textarea {
+    background: none repeat scroll 0 0 #FDFDFD;
+    border: 1px solid #D6D6D6;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 8px 5px;
+    width: 678px;
+}
+
+label {
+    color: #5D5D5D;
+    display: block;
+    font-family: Helvetica,Arial;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.display-label, .display-field
+{
+    color:#5D5D5D;
+    display: block;
+    font-family: Helvetica,Arial;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.display-label
+{
+    color: #008FC8;
+    float: left;
+    padding-right: 20px;
+    width: 150px;
+    
+}
+
+p.input_block input, select {
+    background: none repeat scroll 0 0 #FDFDFD;
+    border: 1px solid #D6D6D6;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    padding: 8px 5px;
+    width: 199px;
+}
+
+a.button, input.submitBtn {
+   /* background: no-repeat scroll 0 -500px #890000;
+    border: 1px solid #890000;*/
+}
+
+input.submitBtn:hover
+{
+    color:#890000;
+}
+p a.submitBtn
+{
+    float: left;
+    padding-top: 5px;
+}
+input.submitBtn, a.submitBtn {
+    color: #666666;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: 6px 16px;
+}

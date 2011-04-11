@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SuplidoraQuisqueyanaService.SuplidoraQuisqueyanaAPI" CodeBehind="SuplidoraQuisqueyanaAPI.svc.cs" %>
